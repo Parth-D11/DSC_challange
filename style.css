@@ -1,0 +1,425 @@
+/* Navbar */
+
+.navbar {
+  background-color: #ffffff;
+  backdrop-filter: brightness(10%);
+}
+  
+.nav-item {
+  padding: 0 18px;
+}
+
+.items {
+  font-size: 2rem;
+  font-family: "Merriweather";
+  color: #9502b3;
+}
+
+.items:hover {
+  color: #0075a3;
+}
+
+/* Button  */
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: aqua;
+}
+
+.btn-lg {
+  margin: 3rem 0 2.2rem;
+  width: 12rem;
+  background-color: #0075a3;
+  animation: blinking 3s ease infinite;
+}
+
+.btn-lg:hover {
+  background-color: #9502b3 !important;
+  color: aqua;
+  animation-play-state: paused;
+}
+
+/* Text */
+
+h1 {
+  font-size: 6rem;
+  color: #ffffff;
+  animation: drop 0.8s linear forwards 0.2s;
+
+}
+
+h2 {
+  font-size: 6rem;
+  color: black;
+  margin-bottom: 0;
+  backdrop-filter: brightness(30%);
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+h3 {
+  font-size: 3.5rem;
+  font-style: italic;
+  color: #9502b3;
+  animation: slide-in-anim 0.5s ease-out forwards;
+}
+
+h4.guest_name {
+  font-size: 4rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h4.schedule {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+p {
+  font-size: 2rem;
+  backdrop-filter: brightness(30%);
+  padding: 1rem 0;
+}
+
+p.carousel-para {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+/* Animation */
+
+/* for h1  */
+
+@keyframes drop {
+  0% {transform: translateY(-200px) scaleY(0.9); opacity: 0;}
+  5% {opacity: .7;}
+  50% {transform: translateY(0px) scaleY(1); opacity: 1;}
+  65% {transform: translateY(-17px) scaleY(.9); opacity: 1;}
+  75% {transform: translateY(-22px) scaleY(.9); opacity: 1;}
+  100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+}
+
+/* for h3  */
+
+
+@keyframes slide-in-anim {
+	20% {
+		transform: translateX(100%);
+	}
+	60% {
+		transform: translateX(80%);
+	}
+	75% {
+		transform: translateX(50%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
+/* for button */
+
+@keyframes blinking {
+  0% {background-color: #0075a3;}
+  25% {background-color: #9502b3;}
+  50% {background-color: #0075a3;}
+  75% {background-color: #9502b3;}
+  100% {background-color: #0075a3;}
+}
+
+/* Home Page */
+
+#Home-page {
+  background-image: url(Images/bg-home.jpg);
+  background-size: 100%;
+}
+
+.DSC-logo {
+  height: 8rem;
+}
+
+/* Event Detail Page */
+
+#Event-details {
+  background-image: url(Images/bg-details.jpg);
+  text-align: center;
+  color: white;
+}
+
+#carouselExampleIndicators{
+  padding: 4% 15%;
+}
+
+.feature-box {
+  padding: 0 1rem;
+  margin: 2rem 0;
+  border-style: dashed;  
+  border-color: #ffffff;
+  border-width: 0.1rem;
+}
+
+.carousel-logo {
+  height: 100px;
+  padding: 1rem 1rem;
+}
+
+/* Contact Page  */
+
+
+.row {
+  margin: 0;
+}
+
+.user {
+  height: 100px;
+  margin: 1rem 0 1rem;
+}
+
+.col-lg-6 {
+  padding: 2rem 0rem;
+  margin: 2rem 0;
+}
+
+.col-lg-4 {
+  padding: 2rem 0rem;
+  margin: 2rem 0;
+}
+
+#footer {
+  background-color: #9502b3;
+  text-align: center;
+  margin: 2rem 0 0;
+}
+
+.social { 
+  height: 3rem;
+  padding: 0 1rem;
+  margin: 1rem 0;
+}
+
+.social:hover {
+  background-color: #db4df7;
+}
+
+/* Center text  */
+
+/* Home and details page  */
+
+
+.centre {
+  text-align: center;
+  backdrop-filter: brightness(90%);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* Contact Page  */
+
+.centre-user {
+  text-align: center;
+}
+
+
+@media screen and (min-width:360px) and (max-width:450px) {
+  
+  /* Navbar */
+  
+
+.items {
+  font-size: 1.5rem;
+}
+
+.navbar-toggler-icon {
+  background-color: #9502b3;
+  border-radius: 20%;
+}
+
+/* Text */
+
+h1 {
+  font-size: 4rem;
+  color: #ffffff;
+  animation: drop 0.8s linear forwards 0.2s;
+
+}
+
+h2 {
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 0;
+  backdrop-filter: brightness(30%);
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+h3 {
+  font-size: 2.7rem;
+  font-style: italic;
+  color: #9502b3;
+  animation: slide-in-anim 0.5s ease-out forwards;
+}
+
+h4.guest_name {
+  font-size: 3rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h4.schedule {
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  backdrop-filter: brightness(100%);
+}
+
+p {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  backdrop-filter: brightness(100%);
+}
+
+p.carousel-para {
+  font-size: 1.4rem;
+  padding: 0;
+  margin: 1rem;
+}
+
+
+/* Home Page */
+
+.DSC-logo {
+  height: 6rem;
+}
+
+/* Event Detail Page */
+
+#Event-details {
+  background-image: url(Images/wp4748435-data-science-wallpapers.jpg);
+  width: 100%;
+}
+
+
+.carousel-logo {
+  height: 80px;
+  padding: 1rem 1rem;
+}
+
+/* Contact Page  */
+
+
+
+.user {
+  height: 80px;
+  margin: 1rem 0 1rem;
+}
+
+.social { 
+  height: 60px;
+  margin: 1rem 0rem;
+}
+
+/* Center text  */
+
+.centre {
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.centre-user {
+  margin: 2rem;
+}
+}
+
+@media screen and (min-width: 760px) and (max-width:950px) {
+  /* Navbar */
+  
+
+.items {
+  font-size: 2rem;
+}
+
+.navbar-toggler-icon {
+  background-color: #9502b3;
+  border-radius: 20%;
+}
+
+/* Text */
+
+h1 {
+  font-size: 4.8rem;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 3.7rem;
+  backdrop-filter: brightness(30%);;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+
+h4.guest_name {
+  font-size: 3rem;
+}
+
+h4.schedule {
+  font-size: 2.6rem;
+}
+
+p {
+  font-size: 2.2rem;
+  padding: 1rem 0;
+  backdrop-filter: brightness(80%);
+}
+
+p.carousel-para {
+  font-size: 1.4rem;
+  padding: 0;
+  margin: 1rem;
+  backdrop-filter: brightness(80%);
+}
+
+
+/* Home Page */
+
+.DSC-logo {
+  height: 7rem;
+}
+
+/* Event Detail Page */
+
+.carousel-logo {
+  height: 100px;
+  padding: 1rem 1rem;
+}
+
+/* Contact Page  */
+
+
+
+.user {
+  height: 80px;
+  margin: 1rem 0 1rem;
+}
+
+.social { 
+  height: 80px;
+  margin: 1rem 2rem;
+}
+
+/* Center text  */
+
+.centre {
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.centre-user {
+  margin: 2rem;
+}
+}
