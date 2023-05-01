@@ -19,6 +19,10 @@
   color: #0075a3;
 }
 
+.navbar-btn {
+  height: 50px;
+}
+
 /* Button  */
 
 a {
@@ -137,7 +141,6 @@ p.carousel-para {
 
 #Home-page {
   background-image: url(Images/bg-home.jpg);
-  background-size: 100%;
 }
 
 .DSC-logo {
@@ -234,9 +237,8 @@ p.carousel-para {
   font-size: 1.5rem;
 }
 
-.navbar-toggler-icon {
-  background-color: #9502b3;
-  border-radius: 20%;
+.navbar-btn {
+  height: 40px;
 }
 
 /* Text */
@@ -292,14 +294,18 @@ p.carousel-para {
 /* Home Page */
 
 .DSC-logo {
-  height: 6rem;
+  height: 5rem;
+}
+
+#Home-page {
+  background-image: url(Images/bg-home.jpg);
+  background-position: 50%;
 }
 
 /* Event Detail Page */
 
 #Event-details {
   background-image: url(Images/wp4748435-data-science-wallpapers.jpg);
-  width: 100%;
 }
 
 
@@ -389,6 +395,11 @@ p.carousel-para {
 
 .DSC-logo {
   height: 7rem;
+}
+
+#Home-page {
+  background-image: url(Images/bg-home.jpg);
+  background-position: 50%;
 }
 
 /* Event Detail Page */
