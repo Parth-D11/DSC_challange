@@ -76,7 +76,15 @@
     padding: 4% 15%;
   }
   
-  .feature-box {
+  .feature-box-1 {
+    padding: 0 1rem;
+    margin: 2rem 0;
+    border-style: dashed;  
+    border-color: #ffffff;
+    border-width: 0.1rem;
+  }
+
+  .feature-box-2 {
     padding: 0 1rem;
     margin: 2rem 0;
     border-style: dashed;  
@@ -163,6 +171,17 @@
     background-image: url(Images/wp4748435-data-science-wallpapers.jpg);
   }
   
+  #carouselExampleIndicators{
+    height: 50rem;
+  }
+
+  .feature-box-2 {
+    padding: 0 1rem;
+    margin: 0 0;
+    border-style: dashed;  
+    border-color: #ffffff;
+    border-width: 0.1rem;
+  }
   
   .carousel-logo {
     height: 80px;
