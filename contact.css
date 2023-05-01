@@ -1,0 +1,148 @@
+/* Navbar */
+
+.navbar {
+    background-color: rgb(176, 176, 176);
+    backdrop-filter: brightness(10%);
+  }
+    
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .items {
+    font-size: 2rem;
+    font-family: "Merriweather";
+    color: #9502b3;
+  }
+  
+  .items:hover {
+    color: #0075a3;
+  }
+  
+  .navbar-btn {
+    height: 50px;
+  }
+  
+  
+  .DSC-logo {
+    height: 8rem;
+  }
+  
+  
+  /* Contact Page  */
+  
+  
+  .row {
+    margin: 0;
+  }
+  
+  .user {
+    height: 100px;
+    margin: 1rem 0 1rem;
+  }
+  
+  .col-lg-6 {
+    padding: 2rem 0rem;
+    margin: 2rem 0;
+  }
+  
+  .col-lg-4 {
+    padding: 2rem 0rem;
+    margin: 2rem 0;
+  }
+  
+  #footer {
+    background-color: #9502b3;
+    text-align: center;
+    margin: 2rem 0 0;
+  }
+  
+  .social { 
+    height: 3rem;
+    padding: 0 1rem;
+    margin: 1rem 0;
+  }
+  
+  .social:hover {
+    background-color: #db4df7;
+  }
+  
+  /* Center text  */
+  
+  .centre-user {
+    text-align: center;
+  }
+  
+  
+  @media screen and (min-width:360px) and (max-width:450px) {
+
+    /* Navbar */
+    
+  
+  .items {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-btn {
+    height: 40px;
+  }
+  
+ 
+  .DSC-logo {
+    height: 5rem;
+  }
+  
+  /* Contact Page  */
+  
+  
+  
+  .user {
+    height: 80px;
+    margin: 1rem 0 1rem;
+  }
+  
+  .social { 
+    height: 60px;
+    margin: 1rem 0rem;
+  }
+  
+  /* Center text  */
+  
+  .centre-user {
+    margin: 2rem;
+  }
+  }
+  
+  @media screen and (min-width: 760px) and (max-width:950px) {
+    /* Navbar */
+    
+  
+  .items {
+    font-size: 2rem;
+  }
+
+  
+  .DSC-logo {
+    height: 7rem;
+  }
+  
+  
+  /* Contact Page  */
+   
+  .user {
+    height: 80px;
+    margin: 1rem 0 1rem;
+  }
+  
+  .social { 
+    height: 80px;
+    margin: 1rem 2rem;
+  }
+  
+  /* Center text  */
+  
+  
+  .centre-user {
+    margin: 2rem;
+  }
+  }

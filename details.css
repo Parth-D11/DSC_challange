@@ -1,0 +1,235 @@
+/* Navbar */
+
+.navbar {
+    background-color: #ffffff;
+    backdrop-filter: brightness(10%);
+  }
+    
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .items {
+    font-size: 2rem;
+    font-family: "Merriweather";
+    color: #9502b3;
+  }
+  
+  .items:hover {
+    color: #0075a3;
+  }
+  
+  .navbar-btn {
+    height: 50px;
+  }
+
+  .DSC-logo {
+    height: 8rem;
+  }
+  
+  /* Text */
+  
+  h2 {
+    font-size: 6rem;
+    color: black;
+    margin-bottom: 0;
+    backdrop-filter: brightness(30%);
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  }
+
+  h4.guest_name {
+    font-size: 4rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  h4.schedule {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  p {
+    font-size: 2rem;
+    backdrop-filter: brightness(30%);
+    padding: 1rem 0;
+  }
+  
+  p.carousel-para {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  
+
+  
+  /* Event Detail Page */
+  
+  body {
+    background-image: url(Images/bg-details.jpg);
+    text-align: center;
+    color: white;
+  }
+  
+  #carouselExampleIndicators{
+    padding: 4% 15%;
+  }
+  
+  .feature-box {
+    padding: 0 1rem;
+    margin: 2rem 0;
+    border-style: dashed;  
+    border-color: #ffffff;
+    border-width: 0.1rem;
+  }
+  
+  .carousel-logo {
+    height: 100px;
+    padding: 1rem 1rem;
+  }
+  
+  
+  /* Center text  */
+  
+  
+  .centre {
+    text-align: center;
+    backdrop-filter: brightness(90%);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  
+  
+  @media screen and (min-width:360px) and (max-width:450px) {
+  
+    
+    /* Navbar */
+    
+  
+  .items {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-btn {
+    height: 40px;
+  }
+  
+  .DSC-logo {
+    height: 5rem;
+  }
+  
+  /* Text */
+
+  
+  h2 {
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 0;
+    backdrop-filter: brightness(30%);
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  }
+
+  
+  h4.guest_name {
+    font-size: 3rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  h4.schedule {
+    font-size: 2.6rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    backdrop-filter: brightness(100%);
+  }
+  
+  p {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    backdrop-filter: brightness(100%);
+  }
+  
+  p.carousel-para {
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 1rem;
+  }
+  
+  
+  /* Event Detail Page */
+  
+  body {
+    background-image: url(Images/wp4748435-data-science-wallpapers.jpg);
+  }
+  
+  
+  .carousel-logo {
+    height: 80px;
+    padding: 1rem 1rem;
+  }
+  
+
+  /* Center text  */
+  
+  .centre {
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+}
+  
+  @media screen and (min-width: 760px) and (max-width:950px) {
+    /* Navbar */
+    
+  
+  .items {
+    font-size: 2rem;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #9502b3;
+    border-radius: 20%;
+  }
+  .DSC-logo {
+    height: 7rem;
+  }
+  
+  /* Text */
+  
+  
+  h2 {
+    font-size: 3.7rem;
+    backdrop-filter: brightness(30%);;
+  }
+  
+  h4.guest_name {
+    font-size: 3rem;
+  }
+  
+  h4.schedule {
+    font-size: 2.6rem;
+  }
+  
+  p {
+    font-size: 2.2rem;
+    padding: 1rem 0;
+    backdrop-filter: brightness(80%);
+  }
+  
+  p.carousel-para {
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 1rem;
+    backdrop-filter: brightness(80%);
+  }
+  
+ 
+  /* Event Detail Page */
+  
+  .carousel-logo {
+    height: 100px;
+    padding: 1rem 1rem;
+  }
+  
+}
