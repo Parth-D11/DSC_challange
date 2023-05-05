@@ -11,6 +11,7 @@
 
 .items {
   font-size: 2rem;
+  font-weight: 600;
   font-family: "Merriweather";
   color: #9502b3;
 }
@@ -50,25 +51,31 @@ a:hover {
 
 /* Text */
 
-h1 {
+.big-heading {
   font-size: 6rem;
   color: #ffffff;
-  animation: drop 0.8s linear forwards 0.2s;
+}
 
+.drop {
+  animation: drop 1.2s linear forwards 0.2s;
+}
+
+.flicker {
+  animation: text-flicker 4s linear infinite 1.5s;
+  opacity: 0;
 }
 
 
-h3 {
+.small-heading {
   font-size: 3.5rem;
   font-style: italic;
   color: #9502b3;
-  animation: slide-in-anim 0.5s ease-out forwards;
+  animation: slide-in-anim 0.7s ease-out forwards;
 }
-
 
 /* Animation */
 
-/* for h1  */
+/* for drop  */
 
 @keyframes drop {
   0% {transform: translateY(-200px) scaleY(0.9); opacity: 0;}
@@ -79,7 +86,65 @@ h3 {
   100% {transform: translateY(0px) scaleY(1); opacity: 1;}
 }
 
-/* for h3  */
+/* For Flicker */
+
+@keyframes text-flicker {
+  0% {
+    opacity:0;
+    text-shadow: -1px -1px 0 #000;
+  }
+  
+  2% {
+    opacity:1;
+    text-shadow: -1px -1px 0 #000;
+  }
+  8% {
+    opacity:0.1;
+    text-shadow: -1px -1px 0 #000;
+  }
+  9% {
+    opacity:1;
+    text-shadow: -1px -1px 0 #000;
+  }
+  12% {
+    opacity:0.1;
+    text-shadow: -1px -1px 0 #000;
+  }
+  20% {
+    opacity:1;
+    text-shadow: -1px -1px 0 #000
+  }
+  25% {
+    opacity:0.3;
+    text-shadow: -1px -1px 0 #000
+  }
+  30% {
+    opacity:1;
+    text-shadow: -1px -1px 0 #000
+  }
+  
+  70% {
+    opacity:0.7;
+    text-shadow: -1px -1px 0 #000
+  }
+  
+  72% {
+    opacity:0.2;
+   text-shadow: -1px -1px 0 #000
+  }
+  
+  77% {
+    opacity:.9;
+    text-shadow: -1px -1px 0 #000
+  }
+  100% {
+    opacity:.9;
+    text-shadow: -1px -1px 0 #000
+  }
+}
+
+
+/* for slide in  */
 
 
 @keyframes slide-in-anim {
@@ -129,7 +194,7 @@ body {
 
 
 
-@media screen and (min-width:360px) and (max-width:450px) {
+@media screen and (min-width:360px) and (max-width:500px) {
 
   body {
     background-image: url(Images/bg-home.jpg);
@@ -149,18 +214,12 @@ body {
 
 /* Text */
 
-h1 {
+.big-heading {
   font-size: 4rem;
-  color: #ffffff;
-  animation: drop 0.8s linear forwards 0.2s;
-
 }
 
-h3 {
+.small-heading {
   font-size: 2.7rem;
-  font-style: italic;
-  color: #9502b3;
-  animation: slide-in-anim 0.5s ease-out forwards;
 }
 
 /* Home Page */
@@ -179,7 +238,7 @@ h3 {
 
 }
 
-@media screen and (min-width: 760px) and (max-width:950px) {
+@media screen and (min-width: 700px) and (max-width:950px) {
   /* Navbar */
   
 
@@ -187,19 +246,18 @@ h3 {
   font-size: 2rem;
 }
 
-.navbar-toggler-icon {
-  background-color: #9502b3;
-  border-radius: 20%;
+.navbar-btn {
+  height: 50px;
 }
 
 /* Text */
 
-h1 {
+.big-heading {
   font-size: 4.8rem;
-  color: #ffffff;
 }
 
-h3 {
+
+.small-heading {
   font-size: 3.2rem;
 }
 
