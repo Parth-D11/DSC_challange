@@ -55,7 +55,7 @@
   }
   /* Text */
   
-  h1 {
+  .carousel-heading {
     font-size: 6rem;
     color: black;
     margin-bottom: 0;
@@ -155,7 +155,7 @@
   /* Text */
 
   
-  h2 {
+  .carousel-heading {
     font-size: 3rem;
     color: black;
     margin-bottom: 0;
@@ -164,12 +164,13 @@
   }
 
   
-  h4.guest_name {
+  .guest_name {
     font-size: 3rem;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #ffffff;
   }
   
-  h4.schedule {
+  .schedule {
     font-size: 2.6rem;
     font-weight: 400;
     color: #ffffff;
@@ -183,10 +184,10 @@
     backdrop-filter: brightness(100%);
   }
   
-  p.carousel-para {
+  .guest-para {
     font-size: 1.4rem;
     padding: 0;
-    margin: 1rem;
+    margin: 1rem;color: #ffffff;
   }
   
   
@@ -250,16 +251,17 @@
   /* Text */
   
   
-  h2 {
+  .carousel-heading {
     font-size: 3.7rem;
     backdrop-filter: brightness(30%);;
   }
   
-  h4.guest_name {
+  .guest_name {
     font-size: 3rem;
+    color: #ffffff;
   }
   
-  h4.schedule {
+  .schedule {
     font-size: 2.6rem;
   }
   
@@ -269,11 +271,12 @@
     backdrop-filter: brightness(80%);
   }
   
-  p.carousel-para {
+  .guest-para {
     font-size: 1.4rem;
     padding: 0;
     margin: 1rem;
     backdrop-filter: brightness(80%);
+    color: #ffffff;
   }
   
  
