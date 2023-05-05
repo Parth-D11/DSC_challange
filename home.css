@@ -146,7 +146,6 @@ a:hover {
 
 /* for slide in  */
 
-
 @keyframes slide-in-anim {
 	20% {
 		transform: translateX(100%);
